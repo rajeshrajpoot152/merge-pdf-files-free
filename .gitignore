@@ -1,0 +1,12 @@
+﻿# Large binaries
+tailwindcss.exe
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+npm-debug.log*
