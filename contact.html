@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy - MergePDFFilesFree.com | 100% Client-Side Privacy</title>
-  <meta name="description" content="Privacy Policy for MergePDFFilesFree.com. We operate entirely client-side: zero server uploads, zero file retention, and total user confidentiality." />
+  <title>Contact Us - MergePDFFilesFree.com | Support &amp; Inquiries</title>
+  <meta name="description" content="Have questions, suggestions, or feedback about MergePDFFilesFree.com? Contact our support and engineering team." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://mergepdffilesfree.com/privacy-policy.html" />
+  <link rel="canonical" href="https://mergepdffilesfree.com/contact.html" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📄</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -44,59 +44,87 @@
       <nav class="mb-6 flex items-center space-x-1.5 text-xs text-slate-400" aria-label="Breadcrumbs">
         <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
         <span>/</span>
-        <span class="text-slate-600 font-medium">Privacy Policy</span>
+        <span class="text-slate-600 font-medium">Contact Us</span>
       </nav>
 
-      <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/70 border border-slate-200 p-6 sm:p-12">
-        <span class="text-xs font-bold tracking-wider uppercase text-emerald-600 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">User Data Protection</span>
-        <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3 mb-4">
-          Privacy Policy
-        </h1>
-        <p class="text-xs text-slate-500 mb-8 pb-4 border-b border-slate-200">
-          Last Updated: September 12, 2026 &bull; Effective Immediately
-        </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- Left: Contact Details -->
+        <div class="md:col-span-1 space-y-6">
+          <div>
+            <span class="text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Support Center</span>
+            <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mt-3">We’re Here to Help</h1>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 leading-relaxed">
+              Have a bug to report, a feature request, or an inquiry regarding our client-side tools? Reach out anytime.
+            </p>
+          </div>
 
-        <div class="p-4 bg-emerald-50/70 border border-emerald-200 rounded-xl mb-6 text-emerald-900 text-xs sm:text-sm leading-relaxed">
-          <strong>Fundamental Privacy Guarantee:</strong> MergePDFFilesFree operates on a 100% client-side architecture. All document merging, splitting, converting, and compressing happens directly in your browser's local sandbox using WebAssembly and HTML5 APIs. <strong>Your documents are never uploaded to any remote web servers, never stored, and never inspected.</strong>
+          <div class="p-4 rounded-xl bg-white border border-slate-200 shadow-2xs space-y-3 text-xs">
+            <div class="flex items-start space-x-3">
+              <span class="text-base text-blue-600">✉️</span>
+              <div>
+                <strong class="text-slate-900 block font-semibold">Direct Email:</strong>
+                <a href="mailto:support@mergepdffilesfree.com" class="text-blue-600 hover:underline">support@mergepdffilesfree.com</a>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <span class="text-base text-emerald-600">⏱️</span>
+              <div>
+                <strong class="text-slate-900 block font-semibold">Response Time:</strong>
+                <span class="text-slate-600">Within 24 business hours</span>
+              </div>
+            </div>
+            <div class="flex items-start space-x-3">
+              <span class="text-base text-indigo-600">🛡️</span>
+              <div>
+                <strong class="text-slate-900 block font-semibold">Security &amp; Privacy:</strong>
+                <span class="text-slate-600">Never attach confidential PDFs to support emails.</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="space-y-6 text-xs sm:text-sm text-slate-700 leading-relaxed">
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">1. Information We Do Not Collect</h2>
-          <p>
-            Because our utilities execute locally on your hardware, we have no mechanism or desire to access your confidential materials:
-          </p>
-          <ul class="list-disc pl-5 space-y-1 text-slate-600">
-            <li>We do not transmit your PDF documents, images, or metadata to external servers.</li>
-            <li>We do not record, save, archive, or cache your file names, text content, or image data.</li>
-            <li>We do not require user account registration, phone numbers, or passwords.</li>
-            <li>We do not charge subscription fees, eliminating the need to collect credit card or billing information.</li>
-          </ul>
+        <!-- Right: Contact Form -->
+        <div class="md:col-span-2 bg-white rounded-2xl shadow-xl shadow-slate-200/70 border border-slate-200 p-6 sm:p-8">
+          <h2 class="text-lg font-bold text-slate-900 mb-1">Send Us a Message</h2>
+          <p class="text-xs text-slate-500 mb-6">Fill out the form below and our team will get back to you promptly.</p>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">2. In-Browser Memory Management</h2>
-          <p>
-            When you select or drag files into our interface, the browser allocates a temporary chunk of random-access memory (RAM). When you close the tab, refresh the page, or click "Clear All", this memory buffer is automatically destroyed by your operating system's garbage collector.
-          </p>
+          <form id="contact-form" class="space-y-4" onsubmit="event.preventDefault(); document.getElementById('contact-status').classList.remove('hidden'); this.reset();">
+            <div>
+              <label for="name" class="block text-xs font-bold text-slate-700 mb-1">Your Name *</label>
+              <input type="text" id="name" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all" placeholder="Jane Doe" />
+            </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">3. Web Analytics and Server Logs</h2>
-          <p>
-            Our web hosting servers may record anonymous, aggregated technical metrics including user-agent strings, HTTP request timestamps, and referrer headers solely to diagnose network errors, defend against DDoS attacks, and verify uptime. None of these server logs contain document data.
-          </p>
+            <div>
+              <label for="email" class="block text-xs font-bold text-slate-700 mb-1">Email Address *</label>
+              <input type="email" id="email" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all" placeholder="jane@example.com" />
+            </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">4. Third-Party Advertising &amp; Cookies</h2>
-          <p>
-            We may partner with third-party advertising vendors such as Google AdSense to display non-intrusive advertisements that keep our service completely free. Third-party vendors may use cookies or web beacons to serve advertisements based on prior visits to this or other websites. Users may opt out of personalized advertising by visiting <a href="https://adssettings.google.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">Google Ads Settings</a> or <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline">aboutads.info</a>.
-          </p>
+            <div>
+              <label for="subject" class="block text-xs font-bold text-slate-700 mb-1">Inquiry Type *</label>
+              <select id="subject" class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all bg-white">
+                <option>General Feedback / Suggestion</option>
+                <option>Bug Report / Technical Issue</option>
+                <option>Partnership / Media Inquiry</option>
+                <option>Privacy / Compliance Question</option>
+              </select>
+            </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">5. GDPR &amp; CCPA Compliance</h2>
-          <p>
-            Under the General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA), you retain strict rights over your personal data. Because we do not store, process, or sell any personal data or document content, your privacy rights are structurally preserved by design.
-          </p>
+            <div>
+              <label for="message" class="block text-xs font-bold text-slate-700 mb-1">Your Message *</label>
+              <textarea id="message" rows="4" required class="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 text-xs sm:text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 outline-none transition-all" placeholder="How can we help you?"></textarea>
+            </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">6. Contact Our Data Protection Officer</h2>
-          <p>
-            If you have questions regarding our privacy protocol, email our compliance team at <span class="font-bold text-blue-600">support@mergepdffilesfree.com</span>.
-          </p>
+            <button type="submit" class="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-xs sm:text-sm font-bold rounded-xl shadow-md shadow-blue-500/20 transition-all">
+              Send Message
+            </button>
+          </form>
+
+          <div id="contact-status" class="hidden mt-4 p-3.5 bg-emerald-50 border border-emerald-200 rounded-xl text-emerald-800 text-xs font-medium">
+            ✅ Thank you! Your message has been received. Our team will follow up via email shortly.
+          </div>
         </div>
+
       </div>
 
     </div>

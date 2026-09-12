@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF圧縮 無料オンライン | PDFファイルサイズ縮小</title>
+  <meta name="description" content="文字の鮮明さを維持しながら、ブラウザ内で直接PDFの容量を軽量化します。" />
+  <meta name="keywords" content="compress pdf, reduce pdf size, shrink pdf, compress pdf online free, optimize pdf file, smaller pdf" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://mergepdffilesfree.com/ja/compress-pdf.html" />
+
+  <!-- Open Graph & Social Cards -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mergepdffilesfree.com/compress-pdf.html" />
+  <meta property="og:title" content="Compress PDF Free Online - Reduce PDF File Size In-Browser" />
+  <meta property="og:description" content="Reduce PDF file size online without uploading to external servers. Fast, secure, and 100% private." />
+  <meta property="og:site_name" content="MergePDFFilesFree" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Compress PDF Free Online - Reduce PDF File Size In-Browser" />
+  <meta name="twitter:description" content="Reduce PDF file size online without uploading to external servers. Fast, secure, and 100% private." />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗜️</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.min.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://mergepdffilesfree.com/compress-pdf.html#webapp",
+        "name": "Compress PDF - MergePDFFilesFree",
+        "url": "https://mergepdffilesfree.com/compress-pdf.html",
+        "applicationCategory": "UtilitiesApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires modern web browser",
+        "description": "Compress and optimize PDF documents directly in your browser with zero server uploads.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      },
+      {
+        "@type": "HowTo",
+        "name": "How to Compress PDF Files Online for Free",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "name": "Select PDF", "text": "Choose or drop your large PDF document into the tool." },
+          { "@type": "HowToStep", "position": 2, "name": "Choose Compression Level", "text": "Select recommended medium or strong compression." },
+          { "@type": "HowToStep", "position": 3, "name": "Compress and Save", "text": "Click 'Compress PDF' and download your reduced file." }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-blue-600 selection:text-white">
+
+  <!-- Confetti Canvas -->
+  <canvas id="confetti-canvas" class="fixed inset-0 pointer-events-none z-50"></canvas>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-2xs">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
+      <a href="/ja/" class="flex items-center space-x-2.5 group" aria-label="MergePDFFilesFree Home">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform duration-200">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-7 14H7v-2h5v2zm5-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+        </div>
+        <span class="text-base sm:text-lg font-extrabold text-slate-900 tracking-tight">
+          Merge<span class="text-blue-600">PDF</span>Files<span class="text-indigo-600 text-xs font-bold uppercase tracking-wider ml-1 px-1.5 py-0.5 bg-blue-50 border border-blue-200 rounded">Free</span>
+        </span>
+      </a>
+      <nav class="flex items-center space-x-3 sm:space-x-4 text-xs sm:text-sm font-medium">
+        <a href="/ja/" class="text-slate-600 hover:text-blue-600 transition-colors">Merge PDF</a>
+        <a href="/ja/split-pdf.html" class="text-slate-600 hover:text-blue-600 transition-colors">Split PDF</a>
+        <a href="/ja/jpg-to-pdf.html" class="text-slate-600 hover:text-blue-600 transition-colors">JPG to PDF</a>
+        <a href="/ja/compress-pdf.html" class="font-bold text-blue-600 bg-blue-50 px-2.5 py-1 rounded-lg">Compress PDF</a>
+        <a href="/blog/" class="text-slate-600 hover:text-blue-600 transition-colors">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow">
+    <!-- Hero & Tool Section (Above the fold) -->
+    <section class="pt-4 pb-8 sm:pt-6 sm:pb-12 bg-gradient-to-b from-blue-50/60 via-white to-slate-50 border-b border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+
+        <nav class="mb-3 flex items-center space-x-1.5 text-xs text-slate-400" aria-label="Breadcrumbs">
+          <a href="/ja/" class="hover:text-blue-600 transition-colors">Home</a>
+          <span>/</span>
+          <span class="text-slate-600 font-medium">Compress PDF</span>
+        </nav>
+
+        <div class="text-center mb-5">
+          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
+            Compress PDF Files <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Free Online</span>
+          </h1>
+          <p class="mt-1.5 text-xs sm:text-sm md:text-base text-slate-600 max-w-xl mx-auto">
+            Reduce PDF file size for fast emailing and web upload. 100% private, executed locally in your browser with zero server uploads.
+          </p>
+        </div>
+
+        <!-- Tool Card -->
+        <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/70 border border-slate-200 p-4 sm:p-7 relative" id="compress-tool-card">
+          
+          <!-- Dropzone -->
+          <div id="compress-dropzone" class="border-2 border-dashed border-slate-300 hover:border-blue-500 rounded-2xl p-6 sm:p-10 text-center cursor-pointer bg-slate-50/70 hover:bg-blue-50/40 transition-all duration-200 group relative">
+            <input type="file" id="compress-file-input" class="hidden" accept="application/pdf,.pdf" />
+
+            <div class="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-3 rounded-2xl bg-blue-100/80 border border-blue-200 text-blue-600 flex items-center justify-center group-hover:scale-105 transition-transform duration-200 shadow-2xs">
+              <svg class="w-7 h-7 sm:w-8 sm:h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+            </div>
+
+            <button type="button" id="compress-browse-btn" class="inline-flex items-center space-x-2 px-6 py-3 text-sm sm:text-base font-bold text-white bg-blue-600 hover:bg-blue-700 active:bg-blue-800 rounded-xl shadow-md shadow-blue-500/25 transition-all">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+              <span>Select PDF File (or drop here)</span>
+            </button>
+            <p class="mt-2.5 text-xs text-slate-500 font-medium">Select a PDF file from your device to reduce its file size</p>
+          </div>
+
+          <!-- Configuration Workspace (Hidden Initially) -->
+          <div id="compress-workspace" class="hidden space-y-5">
+            <div class="flex items-center justify-between pb-3 border-b border-slate-200">
+              <div>
+                <h2 id="compress-filename" class="text-sm sm:text-base font-bold text-slate-900 truncate max-w-xs sm:max-w-md">document.pdf</h2>
+                <p id="compress-filesize" class="text-xs text-slate-500">Original Size: 0 KB</p>
+              </div>
+              <button type="button" id="compress-change-file-btn" class="text-xs font-semibold text-blue-600 hover:underline">
+                Change File
+              </button>
+            </div>
+
+            <!-- Compression Mode Selector -->
+            <div>
+              <label class="block text-xs font-bold text-slate-700 mb-2">Select Compression Quality:</label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <label class="p-3.5 rounded-xl border-2 border-blue-500 bg-blue-50/50 cursor-pointer flex flex-col justify-between transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-bold text-blue-900">Recommended</span>
+                    <input type="radio" name="compression-level" value="medium" checked class="text-blue-600" />
+                  </div>
+                  <p class="text-[11px] text-slate-600">Great size reduction with crisp readable text and balanced images.</p>
+                </label>
+
+                <label class="p-3.5 rounded-xl border border-slate-300 hover:border-slate-400 bg-white cursor-pointer flex flex-col justify-between transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-bold text-slate-800">Basic Optimizer</span>
+                    <input type="radio" name="compression-level" value="low" class="text-blue-600" />
+                  </div>
+                  <p class="text-[11px] text-slate-600">Removes duplicate font streams and metadata without touching image quality.</p>
+                </label>
+
+                <label class="p-3.5 rounded-xl border border-slate-300 hover:border-slate-400 bg-white cursor-pointer flex flex-col justify-between transition-all">
+                  <div class="flex items-center justify-between mb-1">
+                    <span class="text-xs font-bold text-slate-800">Maximum Shrink</span>
+                    <input type="radio" name="compression-level" value="high" class="text-blue-600" />
+                  </div>
+                  <p class="text-[11px] text-slate-600">Strongest compression, ideal for email attachments with strict size caps.</p>
+                </label>
+              </div>
+            </div>
+
+            <!-- Action Button -->
+            <button type="button" id="compress-action-btn" class="w-full py-3 px-6 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-bold rounded-xl shadow-lg shadow-blue-500/30 text-sm sm:text-base transition-all flex items-center justify-center space-x-2">
+              <span>Compress PDF Now</span>
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+            </button>
+          </div>
+
+          <!-- Progress -->
+          <div id="compress-progress" class="hidden py-8 text-center">
+            <div class="w-12 h-12 mx-auto mb-3 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"></div>
+            <p id="compress-progress-text" class="text-sm font-bold text-slate-800 mb-2">Optimizing PDF streams in local browser memory...</p>
+          </div>
+
+          <!-- Result -->
+          <div id="compress-result" class="hidden py-6 text-center">
+            <div class="w-14 h-14 mx-auto mb-3 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-600 flex items-center justify-center">
+              <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+            </div>
+            <h2 class="text-xl sm:text-2xl font-bold text-slate-900 mb-1">Your PDF Has Been Compressed!</h2>
+            <p id="compress-result-summary" class="text-xs sm:text-sm text-slate-600 mb-5 max-w-md mx-auto"></p>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+              <button type="button" id="compress-download-btn" class="w-full sm:w-auto inline-flex items-center justify-center space-x-2 px-7 py-3 text-sm sm:text-base font-bold text-white bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 rounded-xl shadow-lg shadow-emerald-600/30 transition-all">
+                <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                <span>Download Compressed PDF</span>
+              </button>
+              <button type="button" id="compress-start-over-btn" class="w-full sm:w-auto px-5 py-3 text-xs sm:text-sm font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-xl transition-colors">
+                Compress Another PDF
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mt-4 text-xs font-semibold text-slate-500">
+          <span class="inline-flex items-center text-emerald-700">🛡️ 100% In-Browser</span>
+          <span class="inline-flex items-center text-blue-600">⚡ Instant Engine</span>
+          <span class="inline-flex items-center text-purple-600">✨ Zero Watermarks</span>
+          <span class="inline-flex items-center text-amber-600">💰 Completely Free</span>
+        </div>
+
+        <!-- Ad Slot 1 (Zero CLS) -->
+        <aside class="w-full max-w-4xl mx-auto mt-6" aria-label="Ad 1">
+          <div class="ad-slot-leaderboard bg-slate-100/90 border border-slate-200/80 rounded-xl flex flex-col items-center justify-center text-slate-400 text-xs select-none">
+            <span class="text-[10px] uppercase font-bold tracking-widest text-slate-400">Advertisement</span>
+            <div class="text-[11px] text-slate-400/80">Responsive Ad Container (No CLS)</div>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- SEO Content Section (500+ words) -->
+    <section class="py-12 bg-white border-b border-slate-200">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+        <article class="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-4">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3">
+            Why Client-Side PDF Compression Matters for Modern Workflows
+          </h2>
+          <p>
+            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.
+          </p>
+          <p>
+            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.
+          </p>
+
+          <h3 class="text-lg font-bold text-slate-900 pt-2">How Does In-Browser PDF Compression Work?</h3>
+          <p>
+            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:
+          </p>
+          <ul class="list-disc pl-5 space-y-1.5 text-slate-600">
+            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>
+            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>
+            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>
+          </ul>
+
+          <h3 class="text-lg font-bold text-slate-900 pt-2">Zero Privacy Risks</h3>
+          <p>
+            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Ad Slot 2 (Zero CLS) -->
+    <aside class="w-full max-w-4xl mx-auto my-8 px-4 sm:px-6" aria-label="Ad 2">
+      <div class="ad-slot-rectangle bg-slate-100/90 border border-slate-200/80 rounded-2xl flex flex-col items-center justify-center text-slate-400 text-xs select-none">
+        <span class="text-[10px] uppercase font-bold tracking-widest text-slate-400">Advertisement</span>
+        <div class="text-[11px] text-slate-400/80">Content Ad Container (No CLS)</div>
+      </div>
+    </aside>
+
+    <!-- FAQ Section -->
+    <section class="py-12 bg-slate-50">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6">
+        <div class="text-center mb-8">
+          <span class="text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Frequently Asked Questions</span>
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">Compress PDF FAQs</h2>
+        </div>
+
+        <div class="space-y-3.5">
+          <details class="p-4 rounded-xl border border-slate-200 bg-white group" open>
+            <summary class="font-bold text-slate-900 text-sm cursor-pointer list-none flex items-center justify-between">
+              <span>Will compression make my text blurry or unreadable?</span>
+              <span class="text-blue-600 group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <p class="mt-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              No. Text in PDF documents is vector-based. Our compression preserves full font outlines, so your text remains razor-sharp regardless of zoom level.
+            </p>
+          </details>
+
+          <details class="p-4 rounded-xl border border-slate-200 bg-white group">
+            <summary class="font-bold text-slate-900 text-sm cursor-pointer list-none flex items-center justify-between">
+              <span>How much can I reduce my PDF file size?</span>
+              <span class="text-blue-600 group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <p class="mt-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Savings depend on the file's original composition. Documents with redundant objects or high-resolution imagery frequently see 30% to 70% reduction in overall file size.
+            </p>
+          </details>
+
+          <details class="p-4 rounded-xl border border-slate-200 bg-white group">
+            <summary class="font-bold text-slate-900 text-sm cursor-pointer list-none flex items-center justify-between">
+              <span>Is there a maximum file size limit?</span>
+              <span class="text-blue-600 group-open:rotate-180 transition-transform">▾</span>
+            </summary>
+            <p class="mt-2.5 text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Because processing happens in your device's RAM, there are no artificial server caps. You can compress large documents as long as your device has sufficient free memory.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 text-xs">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div class="md:col-span-2">
+          <div class="flex items-center space-x-2.5 mb-2.5">
+            <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center text-white font-bold text-sm">📄</div>
+            <span class="text-base font-bold text-white tracking-tight">MergePDFFilesFree.com</span>
+          </div>
+          <p class="text-xs text-slate-400 max-w-sm leading-relaxed">
+            Free, fast, and 100% private in-browser PDF utilities. No server uploads, no watermarks.
+          </p>
+          <p class="mt-3 text-xs text-slate-500 font-medium">Made with ❤️ for PDF users worldwide</p>
+        </div>
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-2.5">Free PDF Utilities</h4>
+          <ul class="space-y-1.5 text-xs">
+            <li><a href="/ja/" class="hover:text-white transition-colors">Merge PDF Files</a></li>
+            <li><a href="/ja/split-pdf.html" class="hover:text-white transition-colors">Split PDF Files</a></li>
+            <li><a href="/ja/jpg-to-pdf.html" class="hover:text-white transition-colors">JPG to PDF</a></li>
+            <li><a href="/ja/compress-pdf.html" class="hover:text-white transition-colors">Compress PDF</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-200 mb-2.5">Company &amp; Legal</h4>
+          <ul class="space-y-1.5 text-xs">
+            <li><a href="/ja/about-us.html" class="hover:text-white transition-colors">About Us</a></li>
+            <li><a href="/ja/contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+            <li><a href="/ja/privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a></li>
+            <li><a href="/ja/terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-500">
+        <p>&copy; 2026 MergePDFFilesFree.com. All rights reserved.</p>
+        <span class="inline-flex items-center text-emerald-400 mt-2 sm:mt-0">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5"></span>
+          Browser-Encrypted &bull; Zero Server Retention
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/pdf-lib.min.js"></script>
+  <script src="../js/compress-pdf.js"></script>
+</body>
+</html>
