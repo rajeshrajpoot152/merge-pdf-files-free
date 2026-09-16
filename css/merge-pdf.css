@@ -1,0 +1,69 @@
+/* ==========================================================================
+   MergePDFFilesFree - Merge PDF Dedicated Styles (css/merge-pdf.css)
+   100% In-Browser Local Processing • Touch-Optimized • Zero CLS
+   ========================================================================== */
+
+#confetti-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+#dropzone {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#dropzone.drag-active {
+  border-color: #2563EB !important;
+  background-color: rgba(239, 246, 255, 0.8) !important;
+  transform: scale(1.008);
+}
+
+#file-list::-webkit-scrollbar {
+  width: 6px;
+}
+#file-list::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 4px;
+}
+#file-list::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+#file-list::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+.merge-file-item {
+  transition: background-color 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+.merge-file-item:hover {
+  border-color: #93C5FD;
+}
+
+.reorder-btn {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.reorder-btn:active {
+  transform: scale(0.92);
+}
+
+#processing-progress-bar {
+  background-size: 200% 200%;
+  transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#success-container {
+  animation: mergeFadeIn 0.35s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes mergeFadeIn {
+  0% { opacity: 0; transform: scale(0.97); }
+  100% { opacity: 1; transform: scale(1); }
+}

@@ -340,12 +340,76 @@
     if (langButton && langDropdown) {
       langButton.addEventListener('click', (e) => {
         e.stopPropagation();
+        if (typeof megaMenuPanel !== 'undefined' && megaMenuPanel) megaMenuPanel.classList.add('hidden');
         const isHidden = langDropdown.classList.toggle('hidden');
         langButton.setAttribute('aria-expanded', !isHidden);
       });
       document.addEventListener('click', () => {
         langDropdown.classList.add('hidden');
         langButton.setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    // Mega Menu Dropdown Logic
+    const megaMenuBtn = document.getElementById('mega-menu-btn');
+    const megaMenuPanel = document.getElementById('mega-menu-panel');
+    const megaMenuChevron = document.getElementById('mega-menu-chevron');
+
+    if (megaMenuBtn && megaMenuPanel) {
+      megaMenuBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (langDropdown) langDropdown.classList.add('hidden');
+        const isHidden = megaMenuPanel.classList.toggle('hidden');
+        megaMenuBtn.setAttribute('aria-expanded', !isHidden);
+        if (megaMenuChevron) {
+          if (!isHidden) {
+            megaMenuChevron.classList.add('rotate-180');
+          } else {
+            megaMenuChevron.classList.remove('rotate-180');
+          }
+        }
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!megaMenuPanel.contains(e.target) && !megaMenuBtn.contains(e.target)) {
+          megaMenuPanel.classList.add('hidden');
+          megaMenuBtn.setAttribute('aria-expanded', 'false');
+          if (megaMenuChevron) megaMenuChevron.classList.remove('rotate-180');
+        }
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+          megaMenuPanel.classList.add('hidden');
+          megaMenuBtn.setAttribute('aria-expanded', 'false');
+          if (megaMenuChevron) megaMenuChevron.classList.remove('rotate-180');
+        }
+      });
+    }
+
+    // Tools Filter Tabs Logic
+    const filterBtns = document.querySelectorAll('.tools-filter-btn');
+    const toolCards = document.querySelectorAll('.pdf-tool-card');
+
+    if (filterBtns.length > 0 && toolCards.length > 0) {
+      filterBtns.forEach((btn) => {
+        btn.addEventListener('click', () => {
+          filterBtns.forEach((b) => {
+            b.classList.remove('bg-blue-600', 'text-white', 'shadow-sm');
+            b.classList.add('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+          });
+          btn.classList.add('bg-blue-600', 'text-white', 'shadow-sm');
+          btn.classList.remove('bg-white', 'text-slate-600', 'border', 'border-slate-200');
+
+          const filter = btn.getAttribute('data-filter');
+          toolCards.forEach((card) => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          });
+        });
       });
     }
   }
