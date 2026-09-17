@@ -48,6 +48,7 @@
 
   <!-- Locally Compiled Production Tailwind CSS -->
   <link rel="stylesheet" href="css/style.min.css" />
+  <link rel="stylesheet" href="css/workspace.css" />
 
     <link rel="stylesheet" href="css/merge-pdf.css" />
 <!-- Complete JSON-LD Structured Data Schemas -->
@@ -206,6 +207,20 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between">
       
       <!-- Brand Logo -->
+              <!-- Desktop Sidebar Collapse Toggle (Ctrl+B) -->
+        <button type="button" id="sidebar-toggle-btn" class="hidden lg:inline-flex items-center justify-center w-9 h-9 text-slate-600 hover:text-blue-600 hover:bg-slate-100 rounded-lg transition-colors border border-slate-200 mr-2" title="Collapse/Expand Tools Sidebar (Ctrl+B)">
+          <svg id="sidebar-toggle-icon" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M11 19l-7-7 7-7m8 14l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <!-- Mobile Drawer Toggle -->
+        <button type="button" id="mobile-sidebar-toggle" class="lg:hidden inline-flex items-center space-x-1.5 px-2.5 py-1.5 text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors mr-2" title="All PDF Tools">
+          <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <span>Tools</span>
+        </button>
       <a href="/" class="flex items-center group" aria-label="MergePDFFilesFree Homepage">
         <img src="images/logo.png" alt="MergePDFFilesFree" class="h-9 sm:h-11 w-auto object-contain group-hover:scale-[1.02] transition-transform duration-200" />
       </a>
@@ -356,11 +371,198 @@
   </header>
 
   <!-- 2. Main Content Area -->
-  <main class="flex-grow">
+    <!-- Main App Workspace Layout (Admin Panel & Adobe/iLovePDF Style) -->
+  <div class="flex-1 flex flex-col lg:flex-row min-h-[calc(100vh-4rem)] w-full">
+    <!-- Left Sidebar: All PDF Tools (Collapsible & Scrollable Admin Panel Style) -->
+    <aside id="workspace-sidebar" class="workspace-sidebar fixed lg:sticky top-16 left-0 z-40 w-72 h-[calc(100vh-4rem)] bg-white border-r border-slate-200 flex flex-col transform -translate-x-full lg:translate-x-0 shrink-0 select-none shadow-xl lg:shadow-none">
+      
+      <!-- Sidebar Top: Search Filter -->
+      <div class="p-3.5 border-b border-slate-100 bg-slate-50/50">
+        <div class="flex items-center justify-between mb-2">
+          <div class="flex items-center space-x-2">
+            <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
+            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-800">All PDF Tools</span>
+          </div>
+          <!-- Close button for Mobile Drawer -->
+          <button type="button" id="mobile-sidebar-close" class="lg:hidden p-1 text-slate-400 hover:text-slate-600 rounded-lg hover:bg-slate-100" title="Close">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        </div>
+
+        <!-- Quick Live Filter Input -->
+        <div class="relative">
+          <svg class="w-3.5 h-3.5 absolute left-2.5 top-2.5 text-slate-400" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          <input type="text" id="sidebar-search-input" placeholder="Filter 30+ PDF tools..." class="w-full pl-8 pr-3 py-1.5 text-xs bg-white border border-slate-200 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all placeholder:text-slate-400" />
+        </div>
+      </div>
+
+      <!-- Scrollable Tools Directory -->
+      <div class="tools-sidebar flex-1 overflow-y-auto p-3 space-y-4 text-xs">
+        
+        <!-- Group 1: Organize & Size -->
+        <div class="tool-category-group">
+          <div class="category-header text-blue-700 flex items-center px-1 mb-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-blue-600 mr-1.5"></span>
+            <span>Organize &amp; Size</span>
+          </div>
+          <ul class="space-y-0.5">
+            <li>
+              <a href="merge-pdf.html" class="tool-link active">
+                <span class="flex items-center space-x-2"><span>📄</span><span>Merge PDF</span></span>
+                <span class="text-[9px] bg-blue-600 text-white font-extrabold px-1.5 py-0.5 rounded">PRIMARY</span>
+              </a>
+            </li>
+            <li>
+              <a href="split-pdf.html" class="tool-link">
+                <span class="flex items-center space-x-2"><span>✂️</span><span>Split PDF</span></span>
+                <span class="text-[9px] bg-emerald-100 text-emerald-700 font-bold px-1.5 py-0.5 rounded">READY</span>
+              </a>
+            </li>
+            <li>
+              <a href="compress-pdf.html" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🗜️</span><span>Compress PDF</span></span>
+                <span class="text-[9px] bg-emerald-100 text-emerald-700 font-bold px-1.5 py-0.5 rounded">READY</span>
+              </a>
+            </li>
+            <li>
+              <a href="#all-tools" class="tool-link">
+                <span class="flex items-center space-x-2"><span>📑</span><span>Organize PDF</span></span>
+                <span class="text-[9px] text-slate-400">READY</span>
+              </a>
+            </li>
+            <li>
+              <a href="#all-tools" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🔄</span><span>Rotate PDF</span></span>
+                <span class="text-[9px] text-slate-400">READY</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Group 2: Convert to PDF -->
+        <div class="tool-category-group">
+          <div class="category-header text-emerald-700 flex items-center px-1 mb-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-600 mr-1.5"></span>
+            <span>Convert to PDF</span>
+          </div>
+          <ul class="space-y-0.5">
+            <li>
+              <a href="jpg-to-pdf.html" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🖼️</span><span>JPG to PDF</span></span>
+                <span class="text-[9px] bg-emerald-100 text-emerald-700 font-bold px-1.5 py-0.5 rounded">READY</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=Word+to+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>📘</span><span>Word to PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=Excel+to+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>📊</span><span>Excel to PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=HTML+to+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🌐</span><span>HTML to PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Group 3: Convert from PDF -->
+        <div class="tool-category-group">
+          <div class="category-header text-indigo-700 flex items-center px-1 mb-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-indigo-600 mr-1.5"></span>
+            <span>Convert from PDF</span>
+          </div>
+          <ul class="space-y-0.5">
+            <li>
+              <a href="contact.html?subject=PDF+to+Word" class="tool-link">
+                <span class="flex items-center space-x-2"><span>📝</span><span>PDF to Word</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=PDF+to+JPG" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🖼️</span><span>PDF to JPG</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=PDF+to+Excel" class="tool-link">
+                <span class="flex items-center space-x-2"><span>📈</span><span>PDF to Excel</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=PDF+to+PDF/A" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🏛️</span><span>PDF to PDF/A</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Group 4: Edit & Security -->
+        <div class="tool-category-group">
+          <div class="category-header text-purple-700 flex items-center px-1 mb-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-purple-600 mr-1.5"></span>
+            <span>Edit &amp; Security</span>
+          </div>
+          <ul class="space-y-0.5">
+            <li>
+              <a href="contact.html?subject=Protect+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🔒</span><span>Protect PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=Unlock+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>🔓</span><span>Unlock PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=Sign+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>✍️</span><span>Sign PDF</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+            <li>
+              <a href="contact.html?subject=Watermark+PDF" class="tool-link">
+                <span class="flex items-center space-x-2"><span>💧</span><span>Watermark</span></span>
+                <span class="text-[9px] text-slate-400">SOON</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Sidebar Bottom: Security guarantee -->
+      <div class="p-3 border-t border-slate-100 bg-slate-50 text-[11px] text-slate-500 flex items-center justify-between">
+        <span class="flex items-center space-x-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+          <span>Zero Server Uploads</span>
+        </span>
+        <a href="security.html" class="text-blue-600 font-semibold hover:underline">Security</a>
+      </div>
+    </aside>
+
+    <!-- Mobile Drawer Backdrop -->
+    <div id="sidebar-backdrop" class="fixed inset-0 bg-slate-900/50 backdrop-blur-xs z-30 hidden lg:hidden"></div>
+
+    <!-- Workspace Canvas: Full Screen PDF Workspace -->
+    <div class="workspace-canvas flex-1 w-full max-w-full overflow-x-hidden flex flex-col bg-slate-50/40">
+<main class="flex-grow">
 
     <!-- HERO SECTION & TOOL: STRICTLY ABOVE THE FOLD -->
     <section class="pt-4 pb-8 sm:pt-6 sm:pb-12 bg-gradient-to-b from-blue-50/60 via-white to-slate-50 border-b border-slate-200">
-      <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      <div class="w-full max-w-5xl mx-auto px-4 sm:px-6">
 
 
         <!-- Main Title & Human-Centric Microcopy -->
@@ -1626,6 +1828,8 @@
       </div>
     </section>
   </main>
+    </div>
+  </div>
 
   <!-- 6. Semantic Footer with E-E-A-T & Trust Links -->
   <footer class="bg-slate-900 text-slate-400 py-10 border-t border-slate-800 text-xs">
@@ -1702,6 +1906,7 @@
 
   <!-- Core Locally Hosted Scripts (No External CDNs) -->
   <script src="js/pdf-lib.min.js"></script>
+  <script src="js/workspace.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
