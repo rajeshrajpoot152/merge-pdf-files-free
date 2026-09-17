@@ -1,4 +1,17 @@
+# robots.txt for https://mergepdffilesfree.com/
+# Optimized for Google, Bing, and AI Search Crawlers (AEO / GEO)
 User-agent: *
 Allow: /
-
+# Ensure AI Answer Engines can index authoritative insights for GEO / LLM Citations
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+# Sitemap Index
 Sitemap: https://mergepdffilesfree.com/sitemap.xml

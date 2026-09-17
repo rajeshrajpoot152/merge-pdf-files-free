@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Terms of Service - MergePDFFilesFree.com | Conditions of Use</title>
-  <meta name="description" content="Terms of Service for MergePDFFilesFree.com. Review our conditions of use, intellectual property, disclaimer of warranties, and permitted use guidelines." />
+  <title>How It Works - Client-Side PDF Technology | MergePDFFilesFree</title>
+  <meta name="description" content="Discover how MergePDFFilesFree executes PDF merging, splitting, and compression directly inside your web browser with 100% privacy and zero server uploads." />
   <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://mergepdffilesfree.com/terms-of-service.html" />
+  <link rel="canonical" href="https://mergepdffilesfree.com/how-it-works.html" />
+  
   <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
   <link rel="apple-touch-icon" href="images/favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,10 +15,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.min.css" />
 
+  <meta property="og:site_name" content="MergePDFFilesFree" />
+  <meta property="og:title" content="How It Works - Client-Side PDF Technology | MergePDFFilesFree" />
+  <meta property="og:description" content="Discover how MergePDFFilesFree executes PDF merging, splitting, and compression directly inside your web browser with 100% privacy and zero server uploads." />
   <meta property="og:image" content="https://mergepdffilesfree.com/images/og-images.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How It Works - Client-Side PDF Technology | MergePDFFilesFree" />
+  <meta name="twitter:description" content="Discover how MergePDFFilesFree executes PDF merging, splitting, and compression directly inside your web browser with 100% privacy and zero server uploads." />
   <meta name="twitter:image" content="https://mergepdffilesfree.com/images/og-images.png" />
 </head>
 <body class="bg-slate-50 text-slate-900 font-sans antialiased min-h-screen flex flex-col selection:bg-blue-600 selection:text-white">
@@ -45,65 +52,79 @@
       <nav class="mb-6 flex items-center space-x-1.5 text-xs text-slate-400" aria-label="Breadcrumbs">
         <a href="/" class="hover:text-blue-600 transition-colors">Home</a>
         <span>/</span>
-        <span class="text-slate-600 font-medium">Terms of Service</span>
+        <span class="text-slate-600 font-medium">How it Works</span>
       </nav>
 
       <div class="bg-white rounded-2xl shadow-xl shadow-slate-200/70 border border-slate-200 p-6 sm:p-12">
-        <span class="text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Legal Agreement</span>
-        <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3 mb-4">
-          Terms of Service
+        <span class="text-xs font-bold tracking-wider uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Architecture & Engineering</span>
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-3 mb-6">
+          How Client-Side PDF Processing Works
         </h1>
-        <p class="text-xs text-slate-500 mb-8 pb-4 border-b border-slate-200">
-          Effective Date: September 12, 2026
-        </p>
 
-        <div class="space-y-6 text-xs sm:text-sm text-slate-700 leading-relaxed">
+        <div class="prose prose-slate max-w-none text-xs sm:text-sm text-slate-700 leading-relaxed space-y-5">
+
           <p>
-            Please read these Terms of Service ("Terms") carefully before utilizing <strong>MergePDFFilesFree.com</strong> ("Service", "we", "us", or "our"). By accessing or using our website, you agree to be legally bound by these terms.
+            Unlike traditional PDF tools that require uploading your private documents to third-party cloud servers, <strong>MergePDFFilesFree.com</strong> is built on a <strong>100% Client-Side Architecture</strong>. This means that all computation happens right on your device.
           </p>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">1. Description of Service</h2>
-          <p>
-            MergePDFFilesFree offers free, browser-based utilities for merging, splitting, converting, and compressing PDF files without server uploads. The service is provided as-is without subscription fees or compulsory registration.
-          </p>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 pt-2">The 3-Step Local Pipeline</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6 not-prose">
+            <div class="p-5 rounded-xl bg-blue-50/60 border border-blue-200">
+              <span class="w-7 h-7 rounded-full bg-blue-600 text-white font-bold inline-flex items-center justify-center text-xs mb-3">1</span>
+              <h3 class="text-sm font-bold text-slate-900">Local Document Read</h3>
+              <p class="text-xs text-slate-600 mt-1">When you select or drop a file, your web browser reads the raw binary data into memory using the standard HTML5 File API. No network request is initiated.</p>
+            </div>
+            <div class="p-5 rounded-xl bg-indigo-50/60 border border-indigo-200">
+              <span class="w-7 h-7 rounded-full bg-indigo-600 text-white font-bold inline-flex items-center justify-center text-xs mb-3">2</span>
+              <h3 class="text-sm font-bold text-slate-900">In-Browser Manipulation</h3>
+              <p class="text-xs text-slate-600 mt-1">Compiled WebAssembly and JavaScript libraries (PDF-lib & JSZip) parse, reorder, splice, or compress PDF streams right in the browser sandbox.</p>
+            </div>
+            <div class="p-5 rounded-xl bg-emerald-50/60 border border-emerald-200">
+              <span class="w-7 h-7 rounded-full bg-emerald-600 text-white font-bold inline-flex items-center justify-center text-xs mb-3">3</span>
+              <h3 class="text-sm font-bold text-slate-900">Direct Local Download</h3>
+              <p class="text-xs text-slate-600 mt-1">The compiled output is converted to a local Blob URL and downloaded straight to your downloads folder. Once the tab closes, the RAM is automatically freed.</p>
+            </div>
+          </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">2. Permitted Use</h2>
-          <p>
-            You agree to use our services exclusively for lawful purposes. You must not:
-          </p>
-          <ul class="list-disc pl-5 space-y-1 text-slate-600">
-            <li>Process any documents that contain malicious software, exploits, or illegal content.</li>
-            <li>Attempt to reverse-engineer, circumvent, or impair our infrastructure through automated scraping or denial-of-service attacks.</li>
-            <li>Misrepresent the source or ownership of materials processed through our utilities.</li>
-          </ul>
+          <h2 class="text-lg sm:text-xl font-bold text-slate-900 pt-2">Comparison: Traditional Cloud vs. MergePDFFilesFree</h2>
+          <div class="overflow-x-auto my-4 not-prose">
+            <table class="w-full border border-slate-200 text-xs rounded-xl overflow-hidden">
+              <thead class="bg-slate-100 text-slate-700 font-bold">
+                <tr>
+                  <th class="p-3 text-left border-b border-slate-200">Feature</th>
+                  <th class="p-3 text-left border-b border-slate-200 text-rose-600">Old Cloud Converters</th>
+                  <th class="p-3 text-left border-b border-slate-200 text-emerald-700">MergePDFFilesFree</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-200 text-slate-600">
+                <tr>
+                  <td class="p-3 font-semibold text-slate-800">File Storage</td>
+                  <td class="p-3">Uploaded to remote cloud servers</td>
+                  <td class="p-3 font-bold text-emerald-600">Zero server retention (local RAM only)</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-semibold text-slate-800">Processing Speed</td>
+                  <td class="p-3">Limited by upload/download internet bandwidth</td>
+                  <td class="p-3 font-bold text-emerald-600">Instant CPU/GPU hardware speed</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-semibold text-slate-800">Data Breach Risk</td>
+                  <td class="p-3">High (files stored on third-party disks)</td>
+                  <td class="p-3 font-bold text-emerald-600">Zero (files never touch our servers)</td>
+                </tr>
+                <tr>
+                  <td class="p-3 font-semibold text-slate-800">Subscription / Paywall</td>
+                  <td class="p-3">Trial limits, monthly credit cards</td>
+                  <td class="p-3 font-bold text-emerald-600">100% Free Forever with no limits</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">3. Intellectual Property Rights</h2>
           <p>
-            You retain 100% ownership and copyright over all PDF documents, images, and content that you process using MergePDFFilesFree. Because processing occurs entirely within your browser memory, we do not claim any copyright, license, or access to your files.
+            To learn more about our privacy commitments, review our comprehensive <a href="security.html" class="text-blue-600 font-semibold underline">Security Protocol</a> and <a href="privacy-policy.html" class="text-blue-600 font-semibold underline">Privacy Policy</a>.
           </p>
-          <p>
-            All website design elements, stylesheets, scripts, trademarks, logos, and editorial content on MergePDFFilesFree.com are the exclusive intellectual property of the website operators and are protected by international copyright laws.
-          </p>
-
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">4. Disclaimer of Warranties</h2>
-          <p>
-            The service is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, whether express or implied. While we employ thoroughly tested PDF rendering and merging engines, we do not warrant that output files will be completely error-free or compatible with every legacy proprietary PDF viewer.
-          </p>
-
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">5. Limitation of Liability</h2>
-          <p>
-            In no event shall MergePDFFilesFree, its developers, or contributors be held liable for any direct, indirect, incidental, or consequential damages resulting from document corruption, data loss, or inability to use our free service. We strongly advise users to maintain backups of all original source files prior to merging or editing.
-          </p>
-
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">6. Modifications to Terms</h2>
-          <p>
-            We reserve the right to revise or replace these Terms at our discretion. Significant updates will be reflected with a revised "Last Updated" date on this page.
-          </p>
-
-          <h2 class="text-base sm:text-lg font-bold text-slate-900">7. Contact Information</h2>
-          <p>
-            For legal inquiries or questions regarding our terms of use, please contact <span class="font-bold text-blue-600">hello@mergepdffilesfree.com</span>.
-          </p>
+        
         </div>
       </div>
 
