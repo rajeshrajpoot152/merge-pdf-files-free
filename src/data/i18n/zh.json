@@ -1,0 +1,68 @@
+{
+  "langCode": "zh",
+  "pages": {
+    "index": {
+      "title": "免费在线合并PDF | 100%本地安全、快速合并PDF文件",
+      "description": "完全免费在线合并多个PDF文件为单个文档。100%隐私安全保护，浏览器本地处理，无需上传服务器，无水印，无限制。",
+      "keywords": "合并PDF, PDF合并, 拼接PDF, 组合PDF, 免费PDF合并, 多个PDF合并",
+      "h1": "免费在线 合并 PDF 文件",
+      "heroLead": "几秒钟内将多个 PDF 文件合并为一个文档。100% 隐私保护，无需注册，纯本地浏览器极速处理。",
+      "faqs": [
+        {
+          "q": "MergePDFFilesFree 是完全免费的吗？",
+          "a": "是的，完全免费。没有任何隐藏费用、会员订阅或页数限制，您可以无限次使用。"
+        },
+        {
+          "q": "我的敏感合同与文档是否会被泄露？",
+          "a": "绝对不会。所有合并运算 100% 在您本地浏览器内完成，没有任何数据会发送至云端服务器。"
+        },
+        {
+          "q": "合并前我可以自定义文件的先后顺序吗？",
+          "a": "可以。我们提供了清晰的上下箭头按钮，您可以轻松调整每一个文档的先后位置。"
+        },
+        {
+          "q": "我可以把一个 PDF 拆分成多个单页吗？",
+          "a": "当然可以！欢迎使用我们的 拆分 PDF 工具 快速提取您所需的特定页面。"
+        }
+      ],
+      "articleHtml": "<div class=\"w-10 h-10 rounded-xl bg-blue-600 text-white font-extrabold text-sm flex items-center justify-center mb-3.5 shadow-md shadow-blue-500/20\">1</div>\r\n            <h3 class=\"text-base font-bold text-slate-900 mb-1.5\">选择 PDF 文件</h3>\r\n            <p class=\"text-xs sm:text-sm text-slate-600 leading-relaxed\">将两个或多个 PDF 拖拽到上传区域，或直接点击按钮从设备选取。</p>"
+    },
+    "split-pdf": {
+      "title": "免费在线拆分PDF | 浏览器本地安全提取PDF页面",
+      "description": "将PDF文件按页拆分或提取指定页面范围。100%本地隐私保护，无需上传服务器。",
+      "keywords": "split pdf, split pdf online, extract pdf pages, split pdf free, separate pdf pages, split pdf range, cut pdf",
+      "h1": "Split PDF Files Free Online",
+      "heroLead": "Extract specific pages or separate every single page into separate documents instantly. 100% private with zero server uploads."
+    },
+    "compress-pdf": {
+      "title": "免费在线压缩PDF | 高效减小PDF文件体积",
+      "description": "在浏览器本地优化并缩小PDF文件大小，保持文字清晰，轻松发送邮件。",
+      "keywords": "compress pdf, reduce pdf size, shrink pdf, compress pdf online free, optimize pdf file, smaller pdf",
+      "h1": "Compress PDF Files Free Online",
+      "heroLead": "Reduce PDF file size for fast emailing and web upload. 100% private, executed locally in your browser with zero server uploads.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            Why Client-Side PDF Compression Matters for Modern Workflows\r\n          </h2>\r\n          <p>\r\n            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.\r\n          </p>\r\n          <p>\r\n            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">How Does In-Browser PDF Compression Work?</h3>\r\n          <p>\r\n            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:\r\n          </p>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>\r\n            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>\r\n            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Zero Privacy Risks</h3>\r\n          <p>\r\n            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.\r\n          </p>"
+    },
+    "jpg-to-pdf": {
+      "title": "免费在线JPG转PDF | 图片极速转换为PDF文档",
+      "description": "几秒钟内将多张JPG、PNG和WebP图片合并为高清PDF文档，无水印，零服务器留存。",
+      "keywords": "jpg to pdf, image to pdf, png to pdf, convert photos to pdf, picture to pdf free, merge images into pdf",
+      "h1": "Convert JPG to PDF Free Online",
+      "heroLead": "Turn your images (JPG, PNG, WebP) into professional PDF documents. 100% private, no file uploads, processed in your browser.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            How to Convert Images to PDF Without Compromising Privacy\r\n          </h2>\r\n          <p>\r\n            Converting photos, scans, receipts, or screenshots into a structured PDF document is an everyday requirement for students, remote workers, accountants, and businesses. Whether you are submitting expense reports, archiving tax documents, or assembling digital portfolios, having a dependable JPG to PDF converter is essential.\r\n          </p>\r\n          <p>\r\n            Unfortunately, traditional online image converters require uploading your personal images to remote servers. This introduces substantial confidentiality risks, especially when dealing with government IDs, sensitive contracts, or medical records. <strong>MergePDFFilesFree.com solves this problem by executing 100% of the image-to-PDF conversion process inside your browser's local sandbox</strong>.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Why Use Our Client-Side JPG to PDF Converter?</h3>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Zero Server Transmission:</strong> Your photos never travel over the internet to remote servers. Everything occurs inside your device's memory.</li>\r\n            <li><strong>Batch Processing Support:</strong> Select multiple JPG, JPEG, PNG, or WebP files simultaneously and assemble them into a cohesive multi-page document.</li>\r\n            <li><strong>Intelligent Auto-Orientation:</strong> Choose between automatic aspect-ratio matching, standard portrait orientation, or landscape format.</li>\r\n            <li><strong>No Hidden Limitations:</strong> Unlike proprietary services that cap conversions or apply watermark overlays, our utility is completely unrestricted.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Supported Image Formats</h3>\r\n          <p>\r\n            Our tool accepts standard web image formats including <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, and modern <code>.webp</code> images. All source files are rendered directly onto a high-definition HTML5 canvas before being embedded into the PDF object stream via WebAssembly.\r\n          </p>"
+    },
+    "about-us": {
+      "title": "关于我们 - MergePDFFilesFree.com",
+      "description": "了解我们的初心与愿景：为全球用户打造纯本地、无广告限制的高效PDF生产力工具。",
+      "keywords": "",
+      "h1": "Making PDF Management Fast, Free, and 100% Private Worldwide",
+      "heroLead": "No queues or uploading lag. Calculations take place at machine speed on your local hardware."
+    },
+    "contact": {
+      "title": "联系与支持 - MergePDFFilesFree.com",
+      "description": "如果您有任何问题、优化建议或商业合作，欢迎随时与我们的技术团队取得联系。",
+      "keywords": "",
+      "h1": "We’re Here to Help",
+      "heroLead": "Have a bug to report, a feature request, or an inquiry regarding our client-side tools? Reach out anytime."
+    }
+  }
+}

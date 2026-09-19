@@ -1,0 +1,153 @@
+{
+  "langCode": "en",
+  "pages": {
+    "index": {
+      "title": "Merge PDF Files Free Online - Combine, Split &amp; Edit PDFs (100% Secure)",
+      "description": "Merge multiple PDF files into one single document online for free. Combine, split, and edit PDFs with zero server uploads, 100% privacy, no watermarks, and instant lightning-fast performance.",
+      "keywords": "pdf merge, merge pdf, combine pdf, combine pdf files, merge pdf documents, pdf joiner, concatenate pdf files, fuse pdf files, pdf binder, document combiner, split pdf online, extract pages from pdf, pdf cutter, pdf separator, merge jpg to pdf, combine images into pdf, pdf split and merge online, merge and compress pdf, merge and rearrange pdf",
+      "h1": "Merge PDF Files Free Online",
+      "heroLead": "Need to merge documents right now?",
+      "faqs": [
+        {
+          "q": "How do I combine multiple PDF files into one single PDF?",
+          "a": "To combine PDF files together, drag and drop your files into the upload box or click browse. Arrange documents in your desired order using the Up and Down arrow buttons, then click 'Merge PDF Files' to download your unified PDF instantly with no watermark."
+        },
+        {
+          "q": "Can I merge JPG and PNG images together with PDF documents?",
+          "a": "Yes! You can use our JPG to PDF tool to merge JPG to PDF, combine PNG to PDF, or collate photos into a unified document with lossless, pixel-perfect rendering."
+        },
+        {
+          "q": "How do I split a PDF file or extract specific pages?",
+          "a": "Use our Split PDF Tool to visually select page ranges, extract specific pages from PDF, or divide your PDF into individual files packaged in a clean ZIP."
+        },
+        {
+          "q": "Can I merge and compress PDF files at the same time?",
+          "a": "Yes! After combining your documents, pass the merged file to our Compress PDF Tool to shrink file size while preserving high visual quality."
+        },
+        {
+          "q": "Are my confidential documents safe? Is there any logging?",
+          "a": "Yes, 100%. MergePDFFilesFree is built with a Privacy-First, No-Logging architecture. All processing takes place locally in your browser memory via WebAssembly with zero server uploads."
+        },
+        {
+          "q": "Is there any limit, subscription, or watermark added?",
+          "a": "No. Our service is completely Zero Cost with no watermark, no signup required, and unrestricted document combining."
+        }
+      ],
+      "articleHtml": "<div class=\"w-10 h-10 rounded-xl bg-blue-600 text-white font-extrabold text-sm flex items-center justify-center mb-3.5 shadow-md shadow-blue-500/20\">\r\n              1\r\n            </div>\r\n            <h3 class=\"text-base font-bold text-slate-900 mb-1.5\">Drag-and-Drop Documents</h3>\r\n            <p class=\"text-xs sm:text-sm text-slate-600 leading-relaxed\">\r\n              Simply drag and drop two or more PDF files into the upload zone or choose files from your desktop or phone to <strong>combine PDF files</strong> seamlessly.\r\n            </p>"
+    },
+    "merge-pdf": {
+      "title": "Merge PDF Files Free Online - Fast &amp; Secure PDF Combiner",
+      "description": "Combine and merge PDF files online for free. Arrange pages in order, zero server uploads, 100% private in-browser document processing.",
+      "keywords": "",
+      "h1": "Merge PDF Files Online",
+      "heroLead": "Select multiple PDF files, reorder as desired, and combine into a single clean PDF in seconds."
+    },
+    "split-pdf": {
+      "title": "Split PDF Files Instantly - 100% Free &amp; Private | Separate PDF Documents",
+      "description": "Split PDF files and extract PDF pages online for free. Separate PDF documents and cut PDF online with 100% secure, instant in-browser processing and auto-delete privacy.",
+      "keywords": "extract pdf pages, separate pdf documents, cut pdf online, split pdf, split pdf online, split pdf free, 100% secure, instant, auto-delete, in-browser pdf splitter",
+      "h1": "Split PDF Files Instantly — 100% Free &amp; Private",
+      "heroLead": "Extract PDF pages, separate PDF documents, or cut PDF online with instant client-side execution, 100% secure memory processing, and auto-delete privacy."
+    },
+    "compress-pdf": {
+      "title": "Compress PDF Online Free - Reduce PDF Size (Lossless Quality)",
+      "description": "Reduce PDF size and shrink PDF online for free. Lossless, pixel-perfect compression with zero cost, rapid in-browser processing, and zero server uploads.",
+      "keywords": "reduce pdf size, compress pdf lossless, shrink pdf online, compress pdf, compress pdf online, pixel-perfect, zero cost, rapid, optimize pdf file, smaller pdf",
+      "h1": "Compress PDF Files Online — Reduce PDF Size Lossless &amp; Free",
+      "heroLead": "Shrink PDF online with pixel-perfect resolution. Rapid, zero cost compression processed 100% locally in your browser without compromising document clarity.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            Why Client-Side PDF Compression Matters for Modern Workflows\r\n          </h2>\r\n          <p>\r\n            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.\r\n          </p>\r\n          <p>\r\n            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">How Does In-Browser PDF Compression Work?</h3>\r\n          <p>\r\n            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:\r\n          </p>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>\r\n            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>\r\n            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Zero Privacy Risks</h3>\r\n          <p>\r\n            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.\r\n          </p>"
+    },
+    "jpg-to-pdf": {
+      "title": "JPG to PDF Online Free - Merge Images &amp; Photos into PDF | One-Click",
+      "description": "Merge JPG to PDF and combine images into one single PDF document online. One-click, seamless, and watermark-free conversion processed 100% locally in your browser.",
+      "keywords": "merge jpg to pdf, combine images into pdf, photo to pdf, convert jpg to pdf, combine photos to pdf, one-click, seamless, no watermark, image to pdf combiner",
+      "h1": "Convert JPG to PDF Online — Merge Images into PDF",
+      "heroLead": "Turn your images (JPG, PNG, WebP) into professional PDF documents. 100% private, no file uploads, processed in your browser.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            How to Convert Images to PDF Without Compromising Privacy\r\n          </h2>\r\n          <p>\r\n            Converting photos, scans, receipts, or screenshots into a structured PDF document is an everyday requirement for students, remote workers, accountants, and businesses. Whether you are submitting expense reports, archiving tax documents, or assembling digital portfolios, having a dependable JPG to PDF converter is essential.\r\n          </p>\r\n          <p>\r\n            Unfortunately, traditional online image converters require uploading your personal images to remote servers. This introduces substantial confidentiality risks, especially when dealing with government IDs, sensitive contracts, or medical records. <strong>MergePDFFilesFree.com solves this problem by executing 100% of the image-to-PDF conversion process inside your browser's local sandbox</strong>.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Why Use Our Client-Side JPG to PDF Converter?</h3>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Zero Server Transmission:</strong> Your photos never travel over the internet to remote servers. Everything occurs inside your device's memory.</li>\r\n            <li><strong>Batch Processing Support:</strong> Select multiple JPG, JPEG, PNG, or WebP files simultaneously and assemble them into a cohesive multi-page document.</li>\r\n            <li><strong>Intelligent Auto-Orientation:</strong> Choose between automatic aspect-ratio matching, standard portrait orientation, or landscape format.</li>\r\n            <li><strong>No Hidden Limitations:</strong> Unlike proprietary services that cap conversions or apply watermark overlays, our utility is completely unrestricted.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Supported Image Formats</h3>\r\n          <p>\r\n            Our tool accepts standard web image formats including <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, and modern <code>.webp</code> images. All source files are rendered directly onto a high-definition HTML5 canvas before being embedded into the PDF object stream via WebAssembly.\r\n          </p>"
+    },
+    "about-us": {
+      "title": "About Us - MergePDFFilesFree.com | Privacy-First PDF Utilities",
+      "description": "Learn about MergePDFFilesFree.com. Our mission is to provide fast, 100% free, and completely private client-side PDF utilities for users worldwide.",
+      "keywords": "",
+      "h1": "Making PDF Management Fast, Free, and 100% Private Worldwide",
+      "heroLead": "No queues or uploading lag. Calculations take place at machine speed on your local hardware."
+    },
+    "contact": {
+      "title": "Contact Us - MergePDFFilesFree.com | Support &amp; Inquiries",
+      "description": "Have questions, suggestions, or feedback about MergePDFFilesFree.com? Contact our support and engineering team.",
+      "keywords": "",
+      "h1": "We’re Here to Help",
+      "heroLead": "Have a bug to report, a feature request, or an inquiry regarding our client-side tools? Reach out anytime."
+    },
+    "privacy-policy": {
+      "title": "Privacy Policy - MergePDFFilesFree.com | 100% Client-Side Privacy",
+      "description": "Privacy Policy for MergePDFFilesFree.com. We operate entirely client-side: zero server uploads, zero file retention, and total user confidentiality.",
+      "keywords": "",
+      "h1": "Privacy Policy",
+      "heroLead": ""
+    },
+    "terms-of-service": {
+      "title": "Terms of Service - MergePDFFilesFree.com | Conditions of Use",
+      "description": "Terms of Service for MergePDFFilesFree.com. Review our conditions of use, intellectual property, disclaimer of warranties, and permitted use guidelines.",
+      "keywords": "",
+      "h1": "Terms of Service",
+      "heroLead": ""
+    },
+    "faq": {
+      "title": "Frequently Asked Questions (FAQ) - MergePDFFilesFree",
+      "description": "Answers to common questions about MergePDFFilesFree.com. Learn how our client-side PDF utilities work, our zero-storage privacy policy, and limits.",
+      "keywords": "",
+      "h1": "Frequently Asked Questions",
+      "heroLead": "No. Never. All document processing is performed 100% locally on your computer, tablet, or smartphone using client-side WebAssembly and modern JavaScript. Your files are never uploaded, stored, logged, or viewed by anyone."
+    },
+    "how-it-works": {
+      "title": "How It Works - Client-Side PDF Technology | MergePDFFilesFree",
+      "description": "Discover how MergePDFFilesFree executes PDF merging, splitting, and compression directly inside your web browser with 100% privacy and zero server uploads.",
+      "keywords": "",
+      "h1": "How Client-Side PDF Processing Works",
+      "heroLead": "When you select or drop a file, your web browser reads the raw binary data into memory using the standard HTML5 File API. No network request is initiated."
+    },
+    "security": {
+      "title": "Security & Architecture - MergePDFFilesFree",
+      "description": "Discover the security model behind MergePDFFilesFree: 100% in-browser WebAssembly execution, zero server transmission, and cryptographic document confidentiality.",
+      "keywords": "",
+      "h1": "Our Security & Privacy Architecture",
+      "heroLead": "Our application code executes under modern browser security standards (Content Security Policy, Cross-Origin Isolation), preventing unauthorized external script execution."
+    },
+    "guides": {
+      "title": "Guides & Tutorials - Merge, Split & Compress PDFs | MergePDFFilesFree",
+      "description": "Comprehensive step-by-step guides on merging PDF files, splitting pages, converting images to PDF, and compressing documents in-browser.",
+      "keywords": "",
+      "h1": "Master In-Browser PDF Tools: Step-by-Step Tutorials",
+      "heroLead": "Combine multiple PDF documents into a single organized file in seconds without uploading to any remote server."
+    },
+    "cookies": {
+      "title": "Cookie Policy - MergePDFFilesFree",
+      "description": "Learn about our minimal, privacy-centric cookie policy. MergePDFFilesFree does not use tracking cookies or sell personal data.",
+      "keywords": "",
+      "h1": "Cookie Policy & Local Storage Protocol",
+      "heroLead": ""
+    },
+    "disclaimer": {
+      "title": "Legal Disclaimer - MergePDFFilesFree",
+      "description": "Legal disclaimer, terms of use limitation, and warranty information for MergePDFFilesFree.com online utility services.",
+      "keywords": "",
+      "h1": "Legal Disclaimer & Limitations of Service",
+      "heroLead": ""
+    },
+    "business": {
+      "title": "PDF Solutions for Business & Enterprise - MergePDFFilesFree",
+      "description": "Secure, zero-data-retention PDF tools for business teams, corporate legal, accounting, finance, and human resources.",
+      "keywords": "",
+      "h1": "Enterprise-Grade Document Security With Zero Server Storage",
+      "heroLead": "Combine multi-party contracts, court exhibits, NDAs, and addendums into unified discovery packets with lossless page order control."
+    },
+    "education": {
+      "title": "PDF Tools for Students, Teachers & Researchers | MergePDFFilesFree",
+      "description": "Free, unrestricted PDF tools for academic research, student homework, teacher handouts, and thesis submissions.",
+      "keywords": "",
+      "h1": "Free, Fast PDF Utilities for Students and Educators",
+      "heroLead": "Take pictures of handwritten homework notes or whiteboard diagrams, convert them with JPG to PDF , and merge them into a single clean PDF for Canvas, Blackboard, or Google Classroom."
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "langCode": "pt",
+  "pages": {
+    "index": {
+      "title": "Juntar PDF Grátis Online | Combinar Arquivos PDF com Segurança",
+      "description": "Junte e combine múltiplos arquivos PDF em um único documento online gratuitamente. 100% seguro no navegador, sem upload para servidor e sem limites.",
+      "keywords": "juntar pdf, combinar pdf, unir pdf, juntar arquivos pdf, mesclar pdf gratis, agrupar pdf",
+      "h1": "Juntar Arquivos PDF Grátis Online",
+      "heroLead": "Combine seus documentos PDF em segundos. 100% seguro, sem cadastro e processado diretamente no seu navegador.",
+      "faqs": [
+        {
+          "q": "O MergePDFFilesFree é realmente gratuito?",
+          "a": "Sim, 100% gratuito sem qualquer pegadinha. Sem assinaturas, sem limite de uso e sem marcas d'água."
+        },
+        {
+          "q": "Meus dados e documentos confidenciais estão seguros?",
+          "a": "Totalmente seguros. Todo o processamento ocorre no próprio navegador da sua máquina, sem uploads."
+        },
+        {
+          "q": "Posso alterar a ordem dos arquivos antes de juntar?",
+          "a": "Sim! Você pode mover cada arquivo para cima ou para baixo para montar a sequência exata desejada."
+        },
+        {
+          "q": "É possível separar ou dividir páginas de um PDF?",
+          "a": "Sim, use nossa ferramenta para Dividir PDF e extraia páginas individuais em segundos."
+        }
+      ],
+      "articleHtml": "<div class=\"w-10 h-10 rounded-xl bg-blue-600 text-white font-extrabold text-sm flex items-center justify-center mb-3.5 shadow-md shadow-blue-500/20\">1</div>\r\n            <h3 class=\"text-base font-bold text-slate-900 mb-1.5\">Selecione os PDFs</h3>\r\n            <p class=\"text-xs sm:text-sm text-slate-600 leading-relaxed\">Arraste e solte dois ou mais arquivos PDF ou clique para escolher no seu dispositivo.</p>"
+    },
+    "split-pdf": {
+      "title": "Dividir PDF Grátis Online | Extrair Páginas de PDF",
+      "description": "Divida arquivos PDF em páginas separadas ou extraia páginas específicas com total privacidade.",
+      "keywords": "split pdf, split pdf online, extract pdf pages, split pdf free, separate pdf pages, split pdf range, cut pdf",
+      "h1": "Split PDF Files Free Online",
+      "heroLead": "Extract specific pages or separate every single page into separate documents instantly. 100% private with zero server uploads."
+    },
+    "compress-pdf": {
+      "title": "Comprimir PDF Grátis Online | Diminuir Tamanho de PDF",
+      "description": "Reduza o tamanho do seu documento PDF no próprio navegador sem perder legibilidade do texto.",
+      "keywords": "compress pdf, reduce pdf size, shrink pdf, compress pdf online free, optimize pdf file, smaller pdf",
+      "h1": "Compress PDF Files Free Online",
+      "heroLead": "Reduce PDF file size for fast emailing and web upload. 100% private, executed locally in your browser with zero server uploads.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            Why Client-Side PDF Compression Matters for Modern Workflows\r\n          </h2>\r\n          <p>\r\n            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.\r\n          </p>\r\n          <p>\r\n            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">How Does In-Browser PDF Compression Work?</h3>\r\n          <p>\r\n            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:\r\n          </p>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>\r\n            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>\r\n            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Zero Privacy Risks</h3>\r\n          <p>\r\n            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.\r\n          </p>"
+    },
+    "jpg-to-pdf": {
+      "title": "Converter JPG em PDF Grátis Online | Imagens para PDF",
+      "description": "Transforme fotos JPG, PNG e WebP em um arquivo PDF profissional sem envio para servidores.",
+      "keywords": "jpg to pdf, image to pdf, png to pdf, convert photos to pdf, picture to pdf free, merge images into pdf",
+      "h1": "Convert JPG to PDF Free Online",
+      "heroLead": "Turn your images (JPG, PNG, WebP) into professional PDF documents. 100% private, no file uploads, processed in your browser.",
+      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            How to Convert Images to PDF Without Compromising Privacy\r\n          </h2>\r\n          <p>\r\n            Converting photos, scans, receipts, or screenshots into a structured PDF document is an everyday requirement for students, remote workers, accountants, and businesses. Whether you are submitting expense reports, archiving tax documents, or assembling digital portfolios, having a dependable JPG to PDF converter is essential.\r\n          </p>\r\n          <p>\r\n            Unfortunately, traditional online image converters require uploading your personal images to remote servers. This introduces substantial confidentiality risks, especially when dealing with government IDs, sensitive contracts, or medical records. <strong>MergePDFFilesFree.com solves this problem by executing 100% of the image-to-PDF conversion process inside your browser's local sandbox</strong>.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Why Use Our Client-Side JPG to PDF Converter?</h3>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Zero Server Transmission:</strong> Your photos never travel over the internet to remote servers. Everything occurs inside your device's memory.</li>\r\n            <li><strong>Batch Processing Support:</strong> Select multiple JPG, JPEG, PNG, or WebP files simultaneously and assemble them into a cohesive multi-page document.</li>\r\n            <li><strong>Intelligent Auto-Orientation:</strong> Choose between automatic aspect-ratio matching, standard portrait orientation, or landscape format.</li>\r\n            <li><strong>No Hidden Limitations:</strong> Unlike proprietary services that cap conversions or apply watermark overlays, our utility is completely unrestricted.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Supported Image Formats</h3>\r\n          <p>\r\n            Our tool accepts standard web image formats including <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, and modern <code>.webp</code> images. All source files are rendered directly onto a high-definition HTML5 canvas before being embedded into the PDF object stream via WebAssembly.\r\n          </p>"
+    },
+    "about-us": {
+      "title": "Sobre Nós - MergePDFFilesFree.com",
+      "description": "Conheça nossa missão de fornecer utilitários PDF seguros, rápidos e 100% gratuitos para o mundo.",
+      "keywords": "",
+      "h1": "Making PDF Management Fast, Free, and 100% Private Worldwide",
+      "heroLead": "No queues or uploading lag. Calculations take place at machine speed on your local hardware."
+    },
+    "contact": {
+      "title": "Fale Conosco e Suporte - MergePDFFilesFree.com",
+      "description": "Envie sua mensagem, sugestão ou dúvida para a equipe do MergePDFFilesFree.",
+      "keywords": "",
+      "h1": "We’re Here to Help",
+      "heroLead": "Have a bug to report, a feature request, or an inquiry regarding our client-side tools? Reach out anytime."
+    }
+  }
+}
