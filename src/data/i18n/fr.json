@@ -4,7 +4,7 @@
     "index": {
       "title": "Fusionner PDF Gratuit en Ligne | 100% Sécurisé et Rapide",
       "description": "Combinez plusieurs fichiers PDF en un seul document instantanément. 100% privé, sans téléversement sur serveur, sans filigrane et sans limite.",
-      "keywords": "fusionner pdf, combiner pdf, assembler pdf, réunir pdf, fusionner fichiers pdf gratuit, joindre pdf",
+      "keywords": "fusionner pdf, combiner pdf, assembler pdf, réunir pdf, fusionner fichiers pdf gratuit, joindre pdf, combiner plusieurs pdf en un seul, fusionner 2 pdf en 1, regrouper pdf, relier pdf, fusionner documents pdf, 100% sécurisé, sans filigrane, gratuit, instantané, ultra-rapide",
       "h1": "Fusionner des Fichiers PDF Gratuitement en Ligne",
       "heroLead": "Assemblez vos documents PDF en quelques secondes. 100% sécurisé, sans inscription et traité localement dans votre navigateur.",
       "faqs": [
@@ -27,27 +27,33 @@
       ],
       "articleHtml": "<div class=\"w-10 h-10 rounded-xl bg-blue-600 text-white font-extrabold text-sm flex items-center justify-center mb-3.5 shadow-md shadow-blue-500/20\">1</div>\r\n            <h3 class=\"text-base font-bold text-slate-900 mb-1.5\">Importez vos PDF</h3>\r\n            <p class=\"text-xs sm:text-sm text-slate-600 leading-relaxed\">Glissez-déposez deux ou plusieurs fichiers PDF ou cliquez pour les sélectionner sur votre appareil.</p>"
     },
+    "merge-pdf": {
+      "title": "Fusionner PDF en Ligne Gratuit | Combiner Fichiers PDF",
+      "description": "Fusionnez et combinez plusieurs documents PDF en un seul fichier en ligne gratuitement. 100% confidentiel dans votre navigateur.",
+      "keywords": "fusionner pdf en ligne, combiner fichiers pdf, joindre pdf gratuit, assembler documents pdf, fusionner 2 pdf en 1, 100% sécurisé, sans filigrane",
+      "h1": "Fusionner des Fichiers PDF en Ligne",
+      "heroLead": "Sélectionnez plusieurs fichiers PDF, réorganisez-les et combinez-les en un document propre en quelques secondes."
+    },
     "split-pdf": {
-      "title": "Diviser PDF Gratuit en Ligne | Extraire des Pages PDF",
-      "description": "Séparez vos fichiers PDF en pages individuelles ou extrayez des plages de pages en toute confidentialité.",
-      "keywords": "split pdf, split pdf online, extract pdf pages, split pdf free, separate pdf pages, split pdf range, cut pdf",
-      "h1": "Split PDF Files Free Online",
-      "heroLead": "Extract specific pages or separate every single page into separate documents instantly. 100% private with zero server uploads."
+      "title": "Diviser PDF Gratuit en Ligne | Extraire des Pages PDF (100% Sécurisé)",
+      "description": "Séparez vos fichiers PDF en pages individuelles ou extrayez des plages de pages en toute confidentialité et sans serveur.",
+      "keywords": "diviser pdf, séparer pdf, extraire pages pdf, découper pdf en ligne, scinder pdf, séparer les pages d'un pdf, diviser pdf gratuit, 100% sécurisé, instantané, suppression automatique",
+      "h1": "Diviser des Fichiers PDF Gratuitement en Ligne",
+      "heroLead": "Extrayez des pages spécifiques ou séparez chaque page en documents distincts instantanément. 100% privé sans aucun envoi sur serveur."
     },
     "compress-pdf": {
       "title": "Compresser PDF Gratuit en Ligne | Réduire la Taille de PDF",
-      "description": "Réduisez le poids de vos documents PDF directement dans votre navigateur sans perte de netteté.",
-      "keywords": "compress pdf, reduce pdf size, shrink pdf, compress pdf online free, optimize pdf file, smaller pdf",
-      "h1": "Compress PDF Files Free Online",
-      "heroLead": "Reduce PDF file size for fast emailing and web upload. 100% private, executed locally in your browser with zero server uploads.",
-      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            Why Client-Side PDF Compression Matters for Modern Workflows\r\n          </h2>\r\n          <p>\r\n            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.\r\n          </p>\r\n          <p>\r\n            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">How Does In-Browser PDF Compression Work?</h3>\r\n          <p>\r\n            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:\r\n          </p>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>\r\n            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>\r\n            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Zero Privacy Risks</h3>\r\n          <p>\r\n            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.\r\n          </p>"
+      "description": "Réduisez le poids de vos documents PDF directement dans votre navigateur sans perte de netteté. Zéro coût et ultra-rapide.",
+      "keywords": "compresser pdf, réduire la taille d'un pdf, diminuer poids pdf, compresser pdf gratuit, sans perte de qualité, gratuit, ultra-rapide, pixel-perfect",
+      "h1": "Compresser des Fichiers PDF en Ligne",
+      "heroLead": "Réduisez le poids de vos fichiers PDF tout en conservant une clarté vectorielle optimale. Traitement 100% local dans votre navigateur."
     },
     "jpg-to-pdf": {
       "title": "Convertir JPG en PDF Gratuit en Ligne | Images en PDF",
-      "description": "Convertissez instantanément vos photos JPG, PNG et WebP en un document PDF sans téléversement.",
-      "keywords": "jpg to pdf, image to pdf, png to pdf, convert photos to pdf, picture to pdf free, merge images into pdf",
-      "h1": "Convert JPG to PDF Free Online",
-      "heroLead": "Turn your images (JPG, PNG, WebP) into professional PDF documents. 100% private, no file uploads, processed in your browser.",
+      "description": "Convertissez instantanément vos photos JPG, PNG et WebP en un document PDF sans téléversement. Un clic et sans filigrane.",
+      "keywords": "convertir jpg en pdf, fusionner photos en pdf, assembler images en pdf, convertir png en pdf, transformer jpg en pdf, un clic, sans filigrane, haute qualité",
+      "h1": "Convertir JPG en PDF Gratuitement en Ligne",
+      "heroLead": "Transformez vos images (JPG, PNG, WebP) en documents PDF professionnels. 100% confidentiel et traité directement sur votre appareil.",
       "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            How to Convert Images to PDF Without Compromising Privacy\r\n          </h2>\r\n          <p>\r\n            Converting photos, scans, receipts, or screenshots into a structured PDF document is an everyday requirement for students, remote workers, accountants, and businesses. Whether you are submitting expense reports, archiving tax documents, or assembling digital portfolios, having a dependable JPG to PDF converter is essential.\r\n          </p>\r\n          <p>\r\n            Unfortunately, traditional online image converters require uploading your personal images to remote servers. This introduces substantial confidentiality risks, especially when dealing with government IDs, sensitive contracts, or medical records. <strong>MergePDFFilesFree.com solves this problem by executing 100% of the image-to-PDF conversion process inside your browser's local sandbox</strong>.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Why Use Our Client-Side JPG to PDF Converter?</h3>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Zero Server Transmission:</strong> Your photos never travel over the internet to remote servers. Everything occurs inside your device's memory.</li>\r\n            <li><strong>Batch Processing Support:</strong> Select multiple JPG, JPEG, PNG, or WebP files simultaneously and assemble them into a cohesive multi-page document.</li>\r\n            <li><strong>Intelligent Auto-Orientation:</strong> Choose between automatic aspect-ratio matching, standard portrait orientation, or landscape format.</li>\r\n            <li><strong>No Hidden Limitations:</strong> Unlike proprietary services that cap conversions or apply watermark overlays, our utility is completely unrestricted.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Supported Image Formats</h3>\r\n          <p>\r\n            Our tool accepts standard web image formats including <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, and modern <code>.webp</code> images. All source files are rendered directly onto a high-definition HTML5 canvas before being embedded into the PDF object stream via WebAssembly.\r\n          </p>"
     },
     "about-us": {

@@ -4,7 +4,7 @@
     "index": {
       "title": "PDF結合 無料オンライン | 複数PDFファイルを安全に瞬時結合",
       "description": "複数のPDFファイルを完全無料でオンライン結合。サーバー送信なし、100%ブラウザ内で安全処理、透かしなし、ページ数無制限。",
-      "keywords": "PDF 結合, PDF 連結, PDF 合わせる, PDF まとめる, PDF 無料 結合, PDF 合体",
+      "keywords": "PDF結合, PDF 結合 無料, PDF 結合 オンライン, PDF ページ 結合, 複数のPDFを1つに, PDF まとめる, PDF 連結, 完全無料, 透かしなし, 100%安全, 高速, プライバシー保護",
       "h1": "PDFファイルを 無料オンライン結合",
       "heroLead": "複数のPDFファイルをわずか数秒で結合。登録不要、完全無料、端末のブラウザ内で100%安全に処理されます。",
       "faqs": [
@@ -27,27 +27,33 @@
       ],
       "articleHtml": "<div class=\"w-10 h-10 rounded-xl bg-blue-600 text-white font-extrabold text-sm flex items-center justify-center mb-3.5 shadow-md shadow-blue-500/20\">1</div>\r\n            <h3 class=\"text-base font-bold text-slate-900 mb-1.5\">PDFファイルを選択</h3>\r\n            <p class=\"text-xs sm:text-sm text-slate-600 leading-relaxed\">まとめたい2つ以上のPDFファイルをドラッグ＆ドロップするか、端末から選択します。</p>"
     },
+    "merge-pdf": {
+      "title": "PDF結合 オンライン無料 | 複数PDFを簡単に1つに",
+      "description": "複数のPDFファイルをオンラインで瞬時に1つに結合。ブラウザ完結で100%安全、透かしなし。",
+      "keywords": "PDF 結合 オンライン, PDF まとめる, 複数 PDF 1つに, 無料 PDF 連結, 100%安全",
+      "h1": "PDFファイルを オンライン結合",
+      "heroLead": "複数のPDFファイルを選択し、好みの順序に並び替えて瞬時に結合できます。"
+    },
     "split-pdf": {
-      "title": "PDF分割 無料オンライン | PDFからページを安全に抽出",
-      "description": "PDFファイルを個別ページや指定範囲にオンラインで瞬時に分割。サーバー送信なし、100%安全。",
-      "keywords": "split pdf, split pdf online, extract pdf pages, split pdf free, separate pdf pages, split pdf range, cut pdf",
-      "h1": "Split PDF Files Free Online",
-      "heroLead": "Extract specific pages or separate every single page into separate documents instantly. 100% private with zero server uploads."
+      "title": "PDF分割 無料オンライン | PDFからページを安全に抽出 (100%安全)",
+      "description": "PDFファイルを個別ページや指定範囲にオンラインで瞬時に分割。サーバー送信なし、100%安全かつ完全無料。",
+      "keywords": "PDF分割, PDF ページ 抽出, PDF 分割 無料, PDF 切り取り, 100%安全, 即時処理, 自動削除",
+      "h1": "PDFファイルを 無料オンライン分割",
+      "heroLead": "必要なページを抽出するか、全ページを個別のPDFに瞬時に分割。サーバー送信ゼロで完全なプライバシーを保護。"
     },
     "compress-pdf": {
-      "title": "PDF圧縮 無料オンライン | PDFファイルサイズ縮小",
-      "description": "文字の鮮明さを維持しながら、ブラウザ内で直接PDFの容量を軽量化します。",
-      "keywords": "compress pdf, reduce pdf size, shrink pdf, compress pdf online free, optimize pdf file, smaller pdf",
-      "h1": "Compress PDF Files Free Online",
-      "heroLead": "Reduce PDF file size for fast emailing and web upload. 100% private, executed locally in your browser with zero server uploads.",
-      "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            Why Client-Side PDF Compression Matters for Modern Workflows\r\n          </h2>\r\n          <p>\r\n            PDF documents can quickly become bloated when they contain high-resolution scans, unoptimized graphic layers, embedded fonts, and redundant metadata streams. Large PDF files present obstacles: email servers reject attachments exceeding 20 MB or 25 MB, government job application portals enforce strict 2 MB or 5 MB upload limits, and slow mobile connections struggle to upload heavy files.\r\n          </p>\r\n          <p>\r\n            Our in-browser <strong>Compress PDF Tool</strong> strips away unused metadata dictionaries, consolidates duplicate font descriptors, and optimizes content streams directly within your browser's sandboxed environment.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">How Does In-Browser PDF Compression Work?</h3>\r\n          <p>\r\n            Unlike traditional services that upload your private documents to third-party servers, our platform utilizes client-side WebAssembly. The compression routine runs on your device:\r\n          </p>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Stream Deflation:</strong> Compresses text and vector instructions using modern Flate/Deflate compression algorithms.</li>\r\n            <li><strong>Object Deduplication:</strong> Eliminates duplicate fonts, color spaces, and structural tags that bloat multi-page PDF documents.</li>\r\n            <li><strong>Metadata Cleaning:</strong> Strips redundant thumbnail previews and non-essential creation logs without altering page layouts.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Zero Privacy Risks</h3>\r\n          <p>\r\n            Because no data is ever transmitted to a web server, you can confidently compress confidential financial statements, medical records, legal contracts, and passports without violating privacy laws such as GDPR or HIPAA.\r\n          </p>"
+      "title": "PDF圧縮 無料オンライン | PDFファイルサイズ縮小 (高画質)",
+      "description": "文字の鮮明さを維持しながら、ブラウザ内で直接PDFの容量を軽量化します。完全無料・高速。",
+      "keywords": "PDF圧縮, PDF 容量 縮小, PDF 軽量化, 画質劣化なし, 無料, 高速, ピクセルパーフェクト",
+      "h1": "PDFファイルを 無料オンライン圧縮",
+      "heroLead": "ベクターの鮮明さを損なうことなくPDFを軽量化。お使いの端末内で100%安全に処理されます。"
     },
     "jpg-to-pdf": {
       "title": "JPGをPDFに変換 無料オンライン | 画像をPDF化",
-      "description": "JPG、PNG、WebP写真をブラウザ内で高品質PDFに即座に変換。透かしなし、完全無料。",
-      "keywords": "jpg to pdf, image to pdf, png to pdf, convert photos to pdf, picture to pdf free, merge images into pdf",
-      "h1": "Convert JPG to PDF Free Online",
-      "heroLead": "Turn your images (JPG, PNG, WebP) into professional PDF documents. 100% private, no file uploads, processed in your browser.",
+      "description": "JPG、PNG、WebP写真をブラウザ内で高品質PDFに即座に変換。ワンクリック、透かしなし、完全無料。",
+      "keywords": "JPG PDF 変換, 画像 PDF 結合, 写真 PDF まとめ, ワンクリック, 透かしなし, 高画質",
+      "h1": "JPGをPDFに 無料オンライン変換",
+      "heroLead": "写真や画像をプロフェッショナルなPDFに即座に変換。外部サーバーへの送信は一切ありません。",
       "articleHtml": "<h2 class=\"text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight mb-3\">\r\n            How to Convert Images to PDF Without Compromising Privacy\r\n          </h2>\r\n          <p>\r\n            Converting photos, scans, receipts, or screenshots into a structured PDF document is an everyday requirement for students, remote workers, accountants, and businesses. Whether you are submitting expense reports, archiving tax documents, or assembling digital portfolios, having a dependable JPG to PDF converter is essential.\r\n          </p>\r\n          <p>\r\n            Unfortunately, traditional online image converters require uploading your personal images to remote servers. This introduces substantial confidentiality risks, especially when dealing with government IDs, sensitive contracts, or medical records. <strong>MergePDFFilesFree.com solves this problem by executing 100% of the image-to-PDF conversion process inside your browser's local sandbox</strong>.\r\n          </p>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Why Use Our Client-Side JPG to PDF Converter?</h3>\r\n          <ul class=\"list-disc pl-5 space-y-1.5 text-slate-600\">\r\n            <li><strong>Zero Server Transmission:</strong> Your photos never travel over the internet to remote servers. Everything occurs inside your device's memory.</li>\r\n            <li><strong>Batch Processing Support:</strong> Select multiple JPG, JPEG, PNG, or WebP files simultaneously and assemble them into a cohesive multi-page document.</li>\r\n            <li><strong>Intelligent Auto-Orientation:</strong> Choose between automatic aspect-ratio matching, standard portrait orientation, or landscape format.</li>\r\n            <li><strong>No Hidden Limitations:</strong> Unlike proprietary services that cap conversions or apply watermark overlays, our utility is completely unrestricted.</li>\r\n          </ul>\r\n\r\n          <h3 class=\"text-lg font-bold text-slate-900 pt-2\">Supported Image Formats</h3>\r\n          <p>\r\n            Our tool accepts standard web image formats including <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, and modern <code>.webp</code> images. All source files are rendered directly onto a high-definition HTML5 canvas before being embedded into the PDF object stream via WebAssembly.\r\n          </p>"
     },
     "about-us": {
